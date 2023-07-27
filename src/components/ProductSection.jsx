@@ -40,7 +40,7 @@ const ProductSection = () => {
     <div className='h-screen max-w-screen' id='products'>
         <div className='w-full flex col'>
             <div className='w-[90%] md:w-[50%] pl-[5%] pt-[5%] md:pt-[2%]'>  
-                <h1 className='font-bold font-integral text-6xl md:text-7xl mb-6'>
+                <h1 className='font-bold font-integral text-4xl md:text-7xl mb-6'>
                     Products
                 </h1>
                 <ProductItem sl_no='01' name="Series A" handleInfo={()=>handleInfo(1)} clear={clear}/>

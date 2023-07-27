@@ -11,7 +11,7 @@ function App() {
     <HeroSection/>
     
     <ProductSection/>
-    <div className='w-full h-24'></div>
+    <div className='w-full h-0 md:h-24'></div>
     <AboutSection/>
 
   </div>

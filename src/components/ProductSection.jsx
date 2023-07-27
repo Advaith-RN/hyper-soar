@@ -10,29 +10,29 @@ const ProductSection = () => {
     switch(val){
         case 1:
             setInfo("Our line of top class drones, designed to operate in the harshest environments.");
-            setImgInfo('./src/assets/products/droneA.png');
+            setImgInfo('../products/droneA.png');
             break;
         case 2:
             setInfo("These drones prioritize camera quality, and ensure your next footage is the best one yet.");
-            setImgInfo('./src/assets/products/droneB.png');
+            setImgInfo('../products/droneB.png');
             break;
         case 3:
             setInfo("Moderate prices do not mean moderate performance for our Series C budget drones");
-            setImgInfo('./src/assets/products/droneC.png');
+            setImgInfo('../products/droneC.png');
             break;
         case 4:
             setInfo("Accessories for your drones, including batteries, propellers, and more.");
-            setImgInfo('./src/assets/products/accessories.png');
+            setImgInfo('../products/accessories.png');
             break;
         default:
-            setInfo("test");
+            setInfo("../products/Empty.png");
             break;
     }
   }
 
   function clear(){
     setInfo("");
-    setImgInfo('./src/assets/products/Empty.png');
+    setImgInfo('../products/Empty.png');
   }
 
 

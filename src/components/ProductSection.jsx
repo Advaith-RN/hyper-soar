@@ -4,7 +4,7 @@ import { ProductItem } from '../components';
 const ProductSection = () => {
   
   const [info, setInfo] = useState("");
-  const [img_info, setImgInfo] = useState('./src/assets/products/Empty.png');
+  const [img_info, setImgInfo] = useState('../products/Empty.png');
 
   function handleInfo(val){
     switch(val){

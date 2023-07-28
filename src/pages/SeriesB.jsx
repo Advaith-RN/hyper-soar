@@ -23,9 +23,9 @@ const SeriesB = () => {
                 <div className='w-full md:w-[50%] flex flex-col justify-center items-center'>
                     <p className='text-2xl font-medium text-center w-full'>This drone prioritizes camera quality, and ensures that your next footage is the best one yet.</p>
                     <div className='flex flex-row mt-[20%] gap-16'>
-                        <img src='../categories/cmos.png' className='w-20 md:w-36'/>
-                        <img src='../categories/fivek.png' className='w-20 md:w-36'/>
-                        <img src='../categories/stable.png' className='w-20 md:w-36'/>
+                        <img src='../categories/cmos.png' className='w-14 md:w-36'/>
+                        <img src='../categories/fivek.png' className='w-14 md:w-36'/>
+                        <img src='../categories/stable.png' className='w-14 md:w-36'/>
                     </div>
                 </div>
             </div>
@@ -38,4 +38,4 @@ const SeriesB = () => {
   )
 }
 
-export default transition(SeriesB)
+export default transiti14(SeriesB)

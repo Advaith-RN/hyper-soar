@@ -23,9 +23,9 @@ const SeriesA = () => {
                 <div className='w-full md:w-[50%] flex flex-col justify-center items-center'>
                     <p className='text-2xl font-medium text-center w-full'>Our flagship drone, designed to operate in the harshest environments.</p>
                     <div className='flex flex-row mt-[20%] gap-16'>
-                        <img src='../categories/obstacle.png' className='w-20 md:w-36'/>
-                        <img src='../categories/rtb.png' className='w-20 md:w-36'/>
-                        <img src='../categories/maxtime.png' className='w-20 md:w-36'/>
+                        <img src='../categories/obstacle.png' className='w-14 md:w-36'/>
+                        <img src='../categories/rtb.png' className='w-14 md:w-36'/>
+                        <img src='../categories/maxtime.png' className='w-14 md:w-36'/>
                     </div>
                 </div>
             </div>

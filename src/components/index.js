@@ -3,6 +3,7 @@ import HeroSection from "./HeroSection";
 import ProductSection from "./ProductSection";
 import ProductItem from "./ProductItem";
 import AboutSection from "./AboutSection";
+import Card from "./Card";
 
 export{
     Navbar,
@@ -10,4 +11,5 @@ export{
     ProductSection,
     ProductItem,
     AboutSection,
+    Card
 }

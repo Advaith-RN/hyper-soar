@@ -38,4 +38,4 @@ const SeriesB = () => {
   )
 }
 
-export default transiti14(SeriesB)
+export default transition(SeriesB)

@@ -1,20 +1,22 @@
 import { useState } from 'react'
-import { Navbar, HeroSection, ProductSection, AboutSection } from './components';
+
+import { BrowserRouter, Route, Routes} from 'react-router-dom';
+import { Home, SeriesA, SeriesB, SeriesC } from './pages';
 
 
 function App() {
 
   return (  
-  <div className="App">
-    <Navbar />  
-  
-    <HeroSection/>
-    
-    <ProductSection/>
-    <div className='w-full h-0 md:h-24'></div>
-    <AboutSection/>
-
-  </div>
+  <BrowserRouter>
+    <main>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/mian" element={<SeriesA />} />
+        <Route path="/cyclops" element={<SeriesB />} />
+        <Route path="/icarus" element={<SeriesC />} />
+      </Routes>
+    </main>
+  </BrowserRouter>
 );
 }
 

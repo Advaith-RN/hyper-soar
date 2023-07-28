@@ -1,5 +1,6 @@
 import {useState} from 'react'
 import { ProductItem } from '../components';
+import { Link } from 'react-router-dom';
 
 const ProductSection = () => {
   
@@ -9,23 +10,19 @@ const ProductSection = () => {
   function handleInfo(val){
     switch(val){
         case 1:
-            setInfo("Our line of top class drones, designed to operate in the harshest environments.");
+            setInfo("Our flagship drone, designed to operate in the harshest environments.");
             setImgInfo('../products/droneA.png');
             break;
         case 2:
-            setInfo("These drones prioritize camera quality, and ensure your next footage is the best one yet.");
+            setInfo("This drone prioritizes camera quality, and ensures that your next footage is the best one yet.");
             setImgInfo('../products/droneB.png');
             break;
         case 3:
-            setInfo("Moderate prices do not mean moderate performance for our Series C budget drones");
+            setInfo("Let's just say, this Icarus will not fall from the sky.");
             setImgInfo('../products/droneC.png');
             break;
-        case 4:
-            setInfo("Accessories for your drones, including batteries, propellers, and more.");
-            setImgInfo('../products/accessories.png');
-            break;
         default:
-            setInfo("../products/Empty.png");
+            setImgInfo("../products/Empty.png");
             break;
     }
   }
@@ -37,25 +34,31 @@ const ProductSection = () => {
 
 
   return (
-    <div className='h-screen max-w-screen' id='products'>
-        <div className='w-full flex col'>
-            <div className='w-[90%] md:w-[50%] pl-[5%] pt-[5%] md:pt-[2%]'>  
-                <h1 className='font-bold font-integral text-4xl md:text-7xl mb-6'>
-                    Products
-                </h1>
-                <ProductItem sl_no='01' name="Series A" handleInfo={()=>handleInfo(1)} clear={clear}/>
-                <ProductItem sl_no='02' name="Series B" handleInfo={()=>handleInfo(2)} clear={clear}/>
-                <ProductItem sl_no='03' name="Series C" handleInfo={()=>handleInfo(3)} clear={clear}/>
-                <ProductItem sl_no='04' name="Accessories" handleInfo={()=>handleInfo(4)} clear={clear}/>
-            </div>
-            <div className='w-[50%] invisible lg:visible mt-[10%] font-medium'>  
-                <div className='w-full ml-8 h-[25%] items-center flex flex-col'>
-                    <p className='text-right text-2xl pr-[20%]'>{info}</p>
-                    <img src={img_info} alt="drone" className='w-[90%] mt-[-10%]'/>
+   
+        <div className='h-screen max-w-screen' id='products'>
+            <div className='w-full flex col'>
+                <div className='w-[90%] md:w-[50%] pl-[5%] pt-[5%] md:pt-[2%]'>  
+                    <h1 className='font-bold font-integral text-4xl md:text-7xl mb-6'>
+                        Products
+                    </h1>
+                        <Link to='/mian'>
+                            <ProductItem sl_no='01' name="Mian" handleInfo={()=>handleInfo(1)} clear={clear}/>
+                        </Link>
+                        <Link to='/cyclops'>
+                            <ProductItem sl_no='02' name="Cyclops" handleInfo={()=>handleInfo(2)} clear={clear}/>
+                        </Link>
+                        <Link to='/icarus'>
+                            <ProductItem sl_no='03' name="Icarus" handleInfo={()=>handleInfo(3)} clear={clear}/>        
+                        </Link>            
+                </div>
+                <div className='w-[50%] invisible lg:visible mt-[10%] font-medium'>  
+                    <div className='w-full ml-8 h-[25%] items-center flex flex-col'>
+                        <p className='text-right text-2xl pr-[20%]'>{info}</p>
+                        <img src={img_info} alt="drone" className='w-[90%] mt-[-10%]'/>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
   )
 }
 

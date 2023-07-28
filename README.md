@@ -1,7 +1,8 @@
 # HyperSoar - Defy your Limits
 
 
-Welcome to HyperSoar, a front-end website built using React and Tailwind CSS. HyperSoar offers a visually stunning and user-friendly experience for flight enthusiasts and anyone passionate about drones. Whether you're an amateur drone pilot or a seasoned expert, HyperSoar has something special for you.
+Welcome to HyperSoar, a front-end website built using React and Tailwind CSS. HyperSoar offers a visually stunning and user-friendly experience for to purchase drones and anyone passionate about drones. Whether you're an amateur drone pilot or a seasoned expert, HyperSoar has something special for you. 
+This is a pure front-end site, designed to implement a UI designed by me.
 
 ## Features
 **Modern Design:** HyperSoar boasts a sleek and modern design, ensuring an immersive user experience.

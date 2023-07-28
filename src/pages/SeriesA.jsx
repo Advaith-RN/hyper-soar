@@ -1,6 +1,7 @@
 import React from 'react'
 import { logo } from '../assets';
 import { Link } from 'react-router-dom'
+import transition from '../transition.jsx'
 
 const SeriesA = () => {
   return (
@@ -37,4 +38,4 @@ const SeriesA = () => {
   )
 }
 
-export default SeriesA
+export default transition(SeriesA);

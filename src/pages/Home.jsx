@@ -1,5 +1,6 @@
 import React from 'react'
 import { Navbar, HeroSection, ProductSection, AboutSection } from '../components';
+import transition from '../transition.jsx'
 
 const Home = () => {
   return (
@@ -15,4 +16,4 @@ const Home = () => {
   )
 }
 
-export default Home
+export default transition(Home)

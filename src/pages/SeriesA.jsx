@@ -22,14 +22,14 @@ const SeriesA = () => {
                 <div className='w-full md:w-[50%] flex flex-col justify-center items-center'>
                     <p className='text-2xl font-medium text-center w-full'>Our flagship drone, designed to operate in the harshest environments.</p>
                     <div className='flex flex-row mt-[20%] gap-16'>
-                        <img src='../categories/obstacle.png' className='w-24 md:w-36'/>
-                        <img src='../categories/rtb.png' className='w-24 md:w-36'/>
-                        <img src='../categories/maxtime.png' className='w-24 md:w-36'/>
+                        <img src='../categories/obstacle.png' className='w-20 md:w-36'/>
+                        <img src='../categories/rtb.png' className='w-20 md:w-36'/>
+                        <img src='../categories/maxtime.png' className='w-20 md:w-36'/>
                     </div>
                 </div>
             </div>
             <div className='h-[30%] w-[95%] bg-dark-gray mb-[2%] md:mt-0 mt-[10%] p-4'>
-                <h1 className='text-white font-integral text-9xl pl-[3%]'>Mian</h1>
+                <h1 className='text-white font-integral text-8xl md:text-9xl pl-[3%]'>Mian</h1>
                 <h2 className='text-green pl-[3%] font-inter mt-6 text-3xl'>Series A</h2>
             </div>
         </div>

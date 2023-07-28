@@ -22,14 +22,14 @@ const SeriesB = () => {
                 <div className='w-full md:w-[50%] flex flex-col justify-center items-center'>
                     <p className='text-2xl font-medium text-center w-full'>This drone prioritizes camera quality, and ensures that your next footage is the best one yet.</p>
                     <div className='flex flex-row mt-[20%] gap-16'>
-                        <img src='../categories/cmos.png' className='w-24 md:w-36'/>
-                        <img src='../categories/fivek.png' className='w-24 md:w-36'/>
-                        <img src='../categories/stable.png' className='w-24 md:w-36'/>
+                        <img src='../categories/cmos.png' className='w-20 md:w-36'/>
+                        <img src='../categories/fivek.png' className='w-20 md:w-36'/>
+                        <img src='../categories/stable.png' className='w-20 md:w-36'/>
                     </div>
                 </div>
             </div>
             <div className='h-[30%] w-[95%] bg-dark-gray mb-[2%] md:mt-0 mt-[10%] p-4'>
-                <h1 className='text-white font-integral text-7xl md:text-9xl pl-[3%]'>Cyclops</h1>
+                <h1 className='text-white font-integral text-6xl md:text-9xl pl-[3%]'>Cyclops</h1>
                 <h2 className='text-green pl-[3%] font-inter mt-6 text-3xl'>Series B</h2>
             </div>
         </div>

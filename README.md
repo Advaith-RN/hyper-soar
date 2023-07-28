@@ -1,3 +1,5 @@
+![hypersoar banner](https://github.com/Advaith-RN/hyper-soar/assets/77977360/aed0fbcc-b320-418e-bff2-1b2628d877b2)
+
 # HyperSoar - Defy your Limits
 
 

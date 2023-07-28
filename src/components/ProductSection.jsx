@@ -41,8 +41,8 @@ const ProductSection = () => {
                     <h1 className='font-bold font-integral text-4xl md:text-7xl mb-6'>
                         Products
                     </h1>
-                        <Link to='/mian'>
-                            <ProductItem sl_no='01' name="Mian" handleInfo={()=>handleInfo(1)} clear={clear}/>
+                        <Link to='/nike'>
+                            <ProductItem sl_no='01' name="Nike" handleInfo={()=>handleInfo(1)} clear={clear}/>
                         </Link>
                         <Link to='/cyclops'>
                             <ProductItem sl_no='02' name="Cyclops" handleInfo={()=>handleInfo(2)} clear={clear}/>

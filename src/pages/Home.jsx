@@ -2,10 +2,12 @@ import React from 'react'
 import { Navbar, HeroSection, ProductSection, AboutSection } from '../components';
 import transition from '../transition.jsx'
 
-const Home = () => {
+const Home = ({isLoggedIn}) => {
+  
+
   return (
     <>
-        <Navbar />  
+        <Navbar isLoggedIn={isLoggedIn}/>  
     
         <HeroSection/>
         

@@ -3,12 +3,12 @@ import Card from './Card.jsx'
 
 const AboutSection = () => {
   return (
-    <div className='md:h-screen max-w-screen bg-green' id='about_us'>
+    <div className='md:h-screen max-w-screen bg-green overflow-y-hidden' id='about_us'>
         <div className='w-[95%] md:w-[95%] pl-[5%] pt-[5%] md:pt-[2%] md:h-[80%]'>
             <h1 className='font-bold font-integral text-6xl md:text-7xl mb-6'>
                 About Us
             </h1>
-            <p className='mt-8 font-medium text-md pb-8'>
+            <p className='mt-8 font-medium text-md pb-6'>
             At Hyper Soar, our team is dedicated to creating modern and high-performance drones that will elevate your aerial experience.</p>
             <div className='flex flex-col md:flex-row justify-evenly h-[90%] w-full gap-8 md:gap-0 pb-8 md:pb-0'>
                 <Card name="Alex Turner" photo="https://ca-times.brightspotcdn.com/dims4/default/e304200/2147483647/strip/false/crop/2045x1150+0+0/resize/1486x836!/quality/80/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F8d%2Fc3%2Fef134648d292b8e44680629c0312%2Fla-1525446840-jgf27g71ed-snap-image" job="Chief Drone Engineer" desc="Meet Alex, our brilliant mind behind HyperSoar's cutting-edge drone technology. With a passion for innovation and vast experience, Alex redefines the limits of flight and delivers top-notch performance."/>
@@ -22,7 +22,6 @@ const AboutSection = () => {
                     <h2 className='text-pink text-xs md:text-lg mt-6 font-bold'>SUPPORT</h2>
                     <p className='text-white text-xs md:text-lg font-light hover:text-green cursor-pointer mt-2'>Refund</p>
                     <p className='text-white text-xs md:text-lg font-light hover:text-green cursor-pointer mt-2'>Returns</p>
-                    <p className='text-white text-xs md:text-lg font-light hover:text-green cursor-pointer mt-2'>Terms of Service</p>
                 </div>
                 <div className='ml-[8%]'>
                     <h2 className='text-blue text-xs md:text-lg mt-6 font-bold'>FOLLOW US</h2>

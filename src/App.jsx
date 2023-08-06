@@ -7,16 +7,10 @@ import { AnimatePresence } from 'framer-motion';
 
 function App() {
   const location = useLocation();
-  const [isLoggedIn, setIsLoggedIn] = useState(loginGet());
+  const [isLoggedIn, setIsLoggedIn] = useState(false);
 
-  function loginSet() {
-    sessionStorage.setItem('login', true);
+  function loginSet(){
     setIsLoggedIn(true);
-  }
-
-  function loginGet() {
-    let data = sessionStorage.getItem('login');
-    return data;
   }
 
   return (  

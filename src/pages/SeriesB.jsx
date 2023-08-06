@@ -30,7 +30,7 @@ const SeriesB = () => {
                 </div>
             </div>
             <div className='h-[30%] w-[95%] bg-dark-gray mb-[2%] md:mt-0 mt-[10%] p-4'>
-                <h1 className='text-white font-integral text-6xl md:text-9xl pl-[3%]'>Cyclops</h1>
+                <h1 className='text-white font-integral text-6xl md:text-8xl pl-[3%]'>Cyclops</h1>
                 <h2 className='text-green pl-[3%] font-inter mt-6 text-3xl'>Series B</h2>
             </div>
         </div>

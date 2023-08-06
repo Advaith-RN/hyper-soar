@@ -10,14 +10,14 @@ const Navbar = ({isLoggedIn}) => {
                 <Link to='/'>
                     <img
                     src={logo}
-                    className="pl-2 md:pl-8 h-128 object-contain"
+                    className="ml-2 md:ml-10 w-20 object-contain"
                     alt="Logo"
                     />
                 </Link>
-            <ul className="flex flex-row gap-12 mr-12 items-center">
-                <li className="cursor-pointer text-sm md:text-lg transition-all hover:font-bold"><Link to='/login' smooth="true">{isLoggedIn ? "CART": "LOGIN"}</Link></li>
-                <li className="cursor-pointer text-sm md:text-lg transition-all hover:font-bold"><ScrollLink to='products' smooth="true">PRODUCTS</ScrollLink></li>
-                <li className="cursor-pointer text-sm md:text-lg transition-all hover:font-bold"><ScrollLink to='about_us' smooth="true">ABOUT US</ScrollLink></li>
+            <ul className="flex flex-row gap-4 md:gap-12 mr-12 items-center">
+                {!isLoggedIn && <li className="cursor-pointer text-xs md:text-lg transition-all hover:font-bold"><Link to='/login' smooth="true">LOG IN</Link></li>}
+                <li className="cursor-pointer text-xs md:text-lg transition-all hover:font-bold"><ScrollLink to='products' smooth="true">PRODUCTS</ScrollLink></li>
+                <li className="cursor-pointer text-xs md:text-lg transition-all hover:font-bold"><ScrollLink to='about_us' smooth="true">ABOUT US</ScrollLink></li>
             </ul>
         </div>
         </nav>

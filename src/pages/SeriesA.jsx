@@ -10,7 +10,7 @@ const SeriesA = () => {
             <Link to='/'>
                 <img
                     src={logo}
-                    className="pl-2 md:pl-8 h-128 object-contain"
+                    className="pl-2 md:pl-8 h-24 object-contain"
                     alt="Logo"
                 />
             </Link>

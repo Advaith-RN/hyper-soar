@@ -28,7 +28,4 @@ If you find a bug or have suggestions for new features, feel free to open an iss
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-## Acknowledgements
-Thanks to the amazing open-source communities behind React and Tailwind CSS for their incredible work.
-
 Thank you for visiting HyperSoar! We hope you enjoy your journey through the world of modern drones and aerial photography. If you have any questions or need assistance, feel free to contact me. Happy flying!

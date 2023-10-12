@@ -32,3 +32,29 @@
   transform-origin: top;
   z-index: 100;
 }
+
+@media (min-width: 992px) {
+  .navbar {
+    all: unset;
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+  }
+}
+@layer components {
+
+  .btn {
+    @apply h-[50px] text-white px-[30px] rounded-lg flex items-center justify-center gap-[10px] max-w-max ease-in duration-300
+  }
+
+  .btn-primary {
+    @apply bg-bg-majorelle-blue rounded-[200px] hover:bg-bg-ocean-blue shadow-shadow-2
+  }
+
+  .btn-secondary {
+    @apply bg-bg-red-salsa hover:bg-bg-english-vermillion shadow-shadow-3
+  }
+  .header-active {
+    @apply fixed bg-white animate-slideIn shadow-shadow-1
+  }
+}

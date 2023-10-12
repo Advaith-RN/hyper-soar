@@ -33,6 +33,10 @@ nodemon             //run server
 ```
 
 ## Contributions
+
+#### Maintainer Name
+Advaith Rajan Nair
+
 Contributions are welcome! In the future, I plan to add a dedicated backend, to turn this into a store-like experience.
 If you find a bug or have suggestions for new features, feel free to open an issue or submit a pull request. Let's make HyperSoar even better together!
 

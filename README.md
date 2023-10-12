@@ -9,6 +9,9 @@ This is a pure front-end site, designed to implement a UI designed by me.
 ### https://hyper-soar.vercel.app/
 
 ## Run it locally
+
+### Client
+
 This site was made using vite.
 Clone this repository to your local machine.
 ```
@@ -18,7 +21,15 @@ Navigate to the project directory.
 ```
 cd client
 yarn                 //to install dependencies
-yarn dev             //to run the Server
+yarn dev             //to run the client
+```
+### Server
+
+The server consists of a basic Express back-end. 
+```
+cd server
+npm i               //install dependencies
+nodemon             //run server
 ```
 
 ## Contributions
